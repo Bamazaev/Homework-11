@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    font-family: montserrat;
+}
+label{
+    display: block;
+}
+fieldset{
+    width: 30%;
+    margin: 200px auto;
+}

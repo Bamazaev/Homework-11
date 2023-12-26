@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+body{
+    background: url('./image/фон.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+label{
+    display: block;
+    font-size: 25px;
+}
+fieldset{
+    border-radius: 10px;
+    border: 2px solid rgba(225, 225, 225, .2);
+    line-height: 45px;
+    width: 50%;
+    margin: 100px auto;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    padding: 30px 40px;
+}
+fieldset img{
+    position: absolute;
+    right: 290px;
+    width: 30px;
+
+}
+input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, .2);
+    border-radius: 40px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    
+}
+input::placeholder{
+    color: white;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+fieldset a{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(206, 203, 203);
+    font-weight: 500;
+}
+fieldset a:hover{
+    text-decoration: underline;
+}
