@@ -1,11 +1,10 @@
-*{
-    margin: 0;
-    font-family: montserrat;
+form{
+    display: ;
+    width: 40%;
+    margin: 50px auto;
+    background-color: cornflowerblue;
+    padding: 30px;
+    position: relative;
+    line-height: 50px;
 }
-label{
-    display: block;
-}
-fieldset{
-    width: 30%;
-    margin: 200px auto;
-}
+
